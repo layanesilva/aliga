@@ -1,0 +1,81 @@
+@import "reset.css";
+nav{
+	    background-color:#98154F;
+		 position: fixed;
+		 width:100%;
+		 color: white;
+}
+nav ul{
+	  display: flex;
+      justify-content: center;
+}
+nav ul li{	
+        margin: 1.5%;	
+		border:2px solid white;
+		border-radius:50px;
+		padding:10px;
+}			 
+section {
+	  height: 100vh;
+	  width: 100vw;
+}		
+   #inicio{	   
+	   background-color:#F0D8BC;
+}
+   #sobre{
+	    background-image:url("liga-bg.jpg");
+		background-size:cover;
+}
+   #acoes{
+	    background-color:#613479;
+		color:white;
+
+}   
+  #contatos{
+	      background-color:#F0D8BC;
+}
+footer{ height: 100vh;
+         width: 100vw;
+}		 
+.centralizado{
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+}
+#caixa{
+	background-color:white;
+	width: 20vw;
+	border-radius: 10px;
+	padding: 20px
+}
+#imagens {
+    display:grid;
+	grid-template-columns: 1fr  1fr  1fr;
+    grid-template-rows:1fr;
+	grid-column-gap:20px;
+}
+#icones {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}	
+.img-icone{
+	margin-left:75px;
+	margin-right:75px;
+}
+a{
+	color:white;
+	padding:25px
+	
+}
+h1{
+	font-size:3em;
+	margin-bottom:30px;
+}
+#bg{
+	width:100vw;
+	height:100vh;
+	background-color:rgb(152, 21, 79, 0.7);
+}
